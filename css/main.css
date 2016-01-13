@@ -1,0 +1,240 @@
+@font-face {
+	font-family: 'ubuntu-m';
+	src: url('fonts/Ubuntu-M.ttf');
+}
+
+.show{
+	font-size: 14pt;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 8px;
+	padding-right: 8px;
+	z-index: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+	color:white;
+}
+
+.picture{
+	position: relative;
+}
+
+.select{
+	text-align: left;
+	width:265pt;
+}
+
+.bewertung {
+	height: 30px;
+	width: 220px ;
+	position: absolute;
+	bottom: 0px;
+ 	font-size: 10pt;
+	margin-left: 20px;
+	vertical-align: middle;
+} 
+	
+.date{
+	text-decoration: underline;
+	color:white;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-top: 6px;
+	padding-right: 10px;
+	padding-bottom: 6px;
+	font-size: 12pt;
+	background-color: black;
+	float: left;
+	border-radius: 8px 8px 0px 0px;
+}	
+
+.anz-form {
+	display: inline !important;
+	width: 30px;
+}
+
+.day {
+	background-color:white; 
+	margin-bottom:10px;
+	min-width: 850px;
+}
+
+.tdborder{
+	border: 3px solid red;
+	padding: 3px;
+}
+
+.mealimg {
+	height: 135px;
+}
+
+.weeknav {
+	display: inline-block;
+	margin-top: 20px;
+ 	margin-bottom: 10px;
+}
+
+.all {
+	text-align: center;
+}
+
+.meals {
+	text-align: left;
+	margin-left:40px;
+}
+
+.meal {
+	min-height: 215px;
+	min-width: 225px;
+
+}
+
+.nonborder {
+	padding: 6px;
+}
+
+.star {
+	width: 20px;
+	height: 20px;  
+	margin-bottom:5px;
+}
+
+.jumbotron {
+	color:white; 
+	background-color: rgba(0, 0, 0, 1); 
+	/*box-shadow: 0px 5px 9px 5px #000;
+	border-radius:10px;*/
+
+}
+
+.date_index {
+	margin-top:5px;
+	color:white; 
+	background-color: rgba(0, 0, 0, 1); 
+	border-radius:4px;
+	width:250px; 
+	padding:15px;
+	float: left;
+	margin-right: auto;
+}
+
+.main {
+	padding-top:80px;
+	background-color: rgba(43, 120, 36, 0.9);
+	min-width:900px;
+}
+
+.masthead {
+	padding: 10px;
+	margin-bottom:0px;
+	margin:0;
+}
+
+.mealimg {
+	width:180px; 
+}
+
+html, body {
+	background:no-repeat fixed;
+	min-width:400px;
+}
+
+.navbar-right .btn {
+	margin-bottom: 2px;
+}
+
+.heading {
+	margin: 10px;
+}
+
+marquee{
+	color: white; 	
+	width:300px; 
+	margin-left:176px; 
+	margin-right:0; 
+	margin-top:10px; 
+	border:solid; 
+	border-radius:4px; 
+	border-color:black; 
+	background-color: rgba(40, 96, 144, 1);
+}
+.empty{
+	padding: 60px;
+	font-size: 20pt;
+	font-weight: bold;
+	color: red;
+}
+.infobox {
+	margin-top:20px;
+	padding:20px;
+	font-size:12pt;
+}
+.footer{
+	background-color:#222; 
+	margin-bottom:0px; 
+	min-width:800px;
+	padding-top:2px; 
+	padding-bottom:2px;
+	padding-left:100px;
+	width:100%;
+	bottom: 0; 
+}
+
+input text password{
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.message{
+	width:400px; 
+	height: 400px;
+	float:left;	
+	padding-left:80px;
+	padding-top: 100px;
+	font-size: 18pt;
+	color: red;
+}
+
+.bew{
+	height:16pt; 
+	font-size:10pt;
+	padding-bottom:1px; 
+	padding-top:0; 
+ 	padding-left:3px; 
+ 	padding-right:3px; 
+	margin-left:3px; 
+ }
+
+.content{
+	background-color:white; 
+	/*padding-bottom:10px;	*/	
+}
+
+.fett {
+	font-weight: bold;
+	color: red;
+	text-align: left;
+	width:265pt;
+}
+
+.tn {
+ 	border:solid 4px;
+ 	border-radius:6px; 
+ 	min-height:300px; 
+ 	width:408px;
+ 	background-color: rgba(0, 0, 0, 0.5);  
+ 	position:relative; 
+ 	margin-left:auto; 
+ 	margin-right:0;
+}
